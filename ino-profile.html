@@ -4,18 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-	<title>Deposit Bitcoins</title>
+	<title>Profile</title>
 
 	<!-- Google font file. If you want you can change. -->
 	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,900" rel="stylesheet">
 
 	<!-- Fontawesome font file css -->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/c3-chart/c3.css">
 
 	<!-- Template global css file. Requared all pages -->
-	<link rel="stylesheet" type="text/css" href="css/cryptocoins.css">
-	<link rel="stylesheet" type="text/css" href="css/global.style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/global.style.css">
 </head>
 
 <body>
@@ -23,6 +23,7 @@
 	<div class="wrapper">
 		<div class="nav-menu">
 			<nav class="menu">
+
 				<!-- Menu navigation start -->
 				<div class="nav-container">
 					<div class="side-contain d-flex align-items-center justify-content-between">
@@ -50,34 +51,40 @@
 			</nav>
 		</div>
 		<div class="wrapper-inline">
+
 			<!-- Header area start -->
-			<header> <!-- extra class no-background -->
+			<header class="no-background"> <!-- extra class no-background -->
+
 				<a class="go-back-link" href="javascript:history.back();"><i class="fa fa-arrow-left"></i></a>
-				<h1 class="page-title">DEPOSIT BITCOIN</h1>
+				<h1 class="page-title">PROFILE</h1>
+
+				<div class="navi-menu-button">
+					<em></em>
+					<em></em>
+					<em></em>
+				</div>
+
 			</header>
 			<!-- Header area end -->
 			<!-- Page content start -->
-			<main>
-
-				<!-- TAB CONTROL START -->
-				<div class="tab-item fixed-bottom">
-					<div class="tab-menu fix-width only-icons">
-						<a class="menu-item active" href="javascript:void(0);" data-content="content1"><i class="fa fa-credit-card"></i><span>Withdraw</span></a>
-						<a class="menu-item" href="javascript:void(0);" data-content="content2"><i class="fa fa-exchange"></i><span>Deposit</span></a>
-						<a class="menu-item" href="javascript:void(0);" data-content="content3"><i class="fa fa-money"></i><span>Swap</span></a>
+			<main class="margin mt-0">
+				<div class="dash-balance">
+					<div class="dash-content relative">
+						<div class="form-divider"></div>
+						<div class="form-divider"></div>
 					</div>
 				</div>
-				<!-- TAB CONTROL END -->
+				<section class="container bal-section">
 
-				<div class="container">
+					<div class="form-row txt-center">
+						<h2 class="txt-white">Hello Mr Zul</h2>
+					</div>
 					<div class="form-divider"></div>
-						<p class="txt-center">Tap to copy this address, <br>Share it with the sender via email or text</p>
-					<div class="form-divider"></div>
-						<img src="img/QR_Code.png" alt="" width="250" class="img-center">
-					<div class="form-divider"></div>
-					<h3 class="text-center">iasia192281143826140780</h3>
-					<p class="text-center"><a href="#" class="txt-blue">Copy</a></p> 
-				</div>
+					<div class="trader-info">
+						<h3>Zulsyazwan Md Den</h3>
+						<p>Malaysia</p>
+					</div>
+				</section>
 
 			</main>
 			<!-- Page content end -->
@@ -96,8 +103,15 @@
 
 	<!-- JQuery library file. requared all pages -->
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- c3 Charts -->
+	<script src="plugins/c3-chart/c3.min.js"></script>
+	<script src="plugins/c3-chart/d3.min.js"></script>
+	<script src="plugins/c3-chart/c3.custom.js"></script>
+	<!-- Sparkline-->
+    <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
 
 	<!-- Template global script file. requared all pages -->
+	<script src="js/app-charts.js"></script>
 	<script src="js/global.script.js"></script>
 
 

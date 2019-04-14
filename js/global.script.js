@@ -22,10 +22,10 @@ $(document).ready(function(){
 				$('nav.menu ul.main-menu ul').slideUp('fast',function(){
 					$('nav.menu ul.main-menu > li').removeClass('active');
 				});
-				
+
 				$('nav.menu ul li a span').removeClass('fa-angle-up').addClass('fa-angle-down');
 
-				
+
 				that.parent().find('ul:first').slideDown('fast',function(){
 					that.parent().addClass('active');
 				});
@@ -34,7 +34,7 @@ $(document).ready(function(){
 			}
 			else
 			{
-				
+
 				that.parent().find('ul:first').slideUp('fast',function(){
 					$(this).parent().removeClass('active');
 				});
@@ -77,7 +77,7 @@ $(".wrapper-inline").on("scroll", function(e) {
 	} else {
 		$('header.no-background').removeClass("set-bg");
 	}
-  
+
 });
 
 var navMenuOpen = function(){
@@ -107,7 +107,7 @@ var animateText = function(){
 	$('[data-transation]').each(function(e,i){
 		var that = $(this);
 		that.addClass('hide');
-		
+
 		var transation = that.attr('data-transation');
 		if (transation == '')
 			transation = 'fadeInDown';

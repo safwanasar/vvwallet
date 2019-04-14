@@ -124,7 +124,21 @@ body{
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
 
+.bg-vv {
+	background:url("../img/content/bg-2.jpg") no-repeat;
+	background-size: cover
+}
+
+.splash {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.bg-vv.splash main {
+	margin-top: 0;
 }
 
 /*end of part 2----------------------------------------------------*/
@@ -538,6 +552,9 @@ div.container{
 	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
 }
+.form-row-group.swap {
+	border: 1px solid #ccc;
+}
 .form-row-group .form-row{
 	padding: 0 10px;
 }
@@ -657,7 +674,8 @@ select.form-element{
 }
 
 .button.green{
-	background-color: #65b95f;
+	/* background-color: #65b95f; */
+	background-color: #49d3b4;
 	color: #FFF;
 	border-color:transparent;
 	-webkit-box-shadow: none;
@@ -912,6 +930,10 @@ select.form-element{
 }
 .tab-item.fixed-bottom .tab-menu.only-icons .menu-item{
 	font-size: 18px;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #49d3b4;
 }
 /*end of part 11----------------------------------------------------*/
 
@@ -2670,6 +2692,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ddc3e', end
 }
 .swap-container {
 	position: relative;
+	width: 98%
 }
 .float-center {
 	position: absolute;
@@ -2816,7 +2839,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ddc3e', end
     color: #fff;
     text-align: center;
     line-height: 40px;
-		opacity: .5;
+
+}
+.ref-copy-verify.turquoise {
+		background-color: #30BFBB;
 }
 .ref-statistics{
 	width: 49%;
@@ -3307,7 +3333,7 @@ disabled {
 .tab-item.fixed-bottom .tab-menu.only-icons .menu-item span {
 	display: block;
 	text-align: center;
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: normal;
 	padding: 0;
 	margin: 0;
@@ -3322,4 +3348,76 @@ disabled {
 .blue-bg .wrapper-inline {
 	background-color: #01a5f1;
 	color:#fff;
+}
+
+.no-bg {
+	background-color: transparent !important;
+	box-shadow:none !important;
+}
+
+.f-bottom {
+	position: absolute;
+	bottom: 30px;
+	display: block;
+	width:94%;
+}
+
+.history .badge {
+	font-size: 13px;
+	padding: 5px 15px;
+	font-weight: normal;;
+}
+
+.history .badge.green {
+	background-color: #7ed321;
+}
+
+.history .badge.orange {
+	background-color: #ff9d13;
+}
+
+.history .coin-name {
+	font-size: 16px;
+	color: #7ed321;
+}
+
+.logo-contain img,
+.logo {
+	width: 200px;
+}
+
+.success {
+	display: block;
+	margin:0 auto;
+	width: 118px !important;
+}
+
+.logo {
+	display: block;
+	margin:0 auto;
+}
+
+.signup .logo {
+	width: 144px;
+}
+
+.img-captcha {
+	width:100%;
+	border:1px solid #d1c8c8;
+}
+
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
 }

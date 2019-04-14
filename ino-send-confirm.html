@@ -63,10 +63,36 @@
 			<!-- Header area end -->
 			<!-- Page content start -->
 			<main>
-
 				<div class="container">
 					<div class="form-divider"></div>
 
+					<div class="swap-container">
+							<div class="row">
+								<div class="col-6">
+									<div class="form-row-group">
+										<div class="form-row no-padding">
+											<input disabled type="text" name="aaa" class="form-element" placeholder="Enter email" value="Bitcoint">
+										</div>
+									</div>
+									<p class="mt-10 pl-3">Current Rate</p>
+								</div>
+								<div class="col-6">
+									<div class="form-row-group">
+										<div class="form-row no-padding">
+											<select class="form-element" id="currency-type">
+												<!-- Check Value Logo in CSS -->
+												<option value="eth" selected>VVT</option>
+												<option value="bitcoin">Bitcoins</option>
+												<option value="dashcoin">Ripple</option>
+											</select>
+										</div>
+									</div>
+									<p class="mt-10 pr-3 txt-right">1 BTC = 0.01 VVT</p>
+								</div>
+							</div>
+							<i class="fa fa-arrow-right txt-green float-center" aria-hidden="true"></i>
+						</div><!-- /swap-container -->
+					<div class="form-divider"></div>
 					<ul class="transaction-list list-unstyled">
 						<li>
 							<div class="d-flex align-items-center justify-content-between">
@@ -80,22 +106,7 @@
                   </div>
                 </div>
 						</li>
-						<li>
-							<div class="d-flex align-items-center justify-content-between">
-                  <div class="d-flex align-items-center">
-                    <div class="ml-10">
-                      <h4 class="coin-name">Prosessing fee</h4>
-                    </div>
-                  </div>
-                  <div>
-                    <p class="d-block txt-green">1.5%</p>
-                  </div>
-                </div>
-						</li>
 					</ul>
-
-
-					<hr>
 
 					<ul class="transaction-list list-unstyled">
 						<li>
@@ -110,14 +121,28 @@
                   </div>
                 </div>
 						</li>
+						<li class="no-bg">
+							<div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div class="ml-10">
+                      <h4 class="coin-name">Prosessing Fee</h4>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="d-block txt-green">1.5%</p>
+                  </div>
+                </div>
+						</li>
 					</ul>
-					<div class="form-mini-divider"></div>
-					<div class="form-row">
-						<a href="#" class="button circle block green">I Agree</a>
-					</div>
-
 					<div class="form-divider"></div>
-
+					<div class="f-bottom">
+						<p class="txt-right">Estimate arrival 5 - 30 minutes</p>
+						<div class="form-mini-divider"></div>
+						<div class="form-row">
+							<a href="#" class="button circle block green">I Agree</a>
+						</div>
+					</div><!-- /f-bottom -->
+					<div class="form-divider"></div>
 				</div>
 
 			</main>
