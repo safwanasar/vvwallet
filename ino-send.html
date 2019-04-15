@@ -61,7 +61,18 @@
 			</header>
 			<!-- Header area end -->
 			<!-- Page content start -->
-			<main>
+			<main class="margin">
+
+				<!-- TAB CONTROL START -->
+				<div class="tab-item fixed-bottom">
+					<div class="tab-menu fix-width only-icons">
+						<a class="menu-item active" href="javascript:void(0);" data-content="content1"><i class="fa fa-database"></i><span>Asset</span></a>
+						<a class="menu-item" href="javascript:void(0);" data-content="content2"><i class="fa fa-area-chart"></i><span>Market</span></a>
+						<a class="menu-item" href="javascript:void(0);" data-content="content3"><i class="fa fa-exchange"></i><span>Swap</span></a>
+						<a class="menu-item" href="javascript:void(0);" data-content="content4"><i class="fa fa-history"></i><span>History</span></a>
+					</div>
+				</div>
+				<!-- TAB CONTROL END -->
 
 				<div class="container">
 					<div class="form-mini-divider"></div>
@@ -85,7 +96,11 @@
 						</div>
 					</div>
 
-					<div class="form-divider"></div>
+					<div class="form-mini-divider"></div>
+
+					<p class="txt-turquoise txt-right" data-popup="standartPopup">Show QR Code</p>
+
+					<div class="form-mini-divider"></div>
 
 					<div class="form-row-group">
 						<div class="form-row no-padding">
@@ -97,6 +112,21 @@
 					</div>
 
 					<div class="form-divider"></div>
+
+					<ul class="transaction-list list-unstyled mb-0">
+						<li class="no-bg">
+							<div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div class="ml-10">
+                      <h4 class="coin-name">Prosessing Fee</h4>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="d-block">1.5%</p>
+                  </div>
+                </div>
+						</li>
+					</ul>
 
 					<div class="form-row">
 						<a href="#" class="button circle block green">Continue</a>
@@ -110,6 +140,21 @@
 			<!-- Page content end -->
 		</div>
 	</div>
+
+	<!--POPUP HTML CONTENT START -->
+	<div class="popup-overlay" id="standartPopup"> <!-- if you dont want overlay add class .no-overlay -->
+		<div class="popup-container">
+			<div class="popup-content pt-5">
+				<p class="txt-center">Tap to copy this address,<br>Share it with the sender via email or text.</p>
+				<img src="img/QR_Code.png" alt="" width="250" class="img-center">
+				<div class="form-mini-divider"></div>
+				<h3 class="text-center">iasia192281143826140780</h3>
+				<p class="text-center"><a href="#" class="txt-blue">Copy</a></p>
+				<div class="form-divider"></div>
+			</div>
+		</div>
+	</div>
+	<!--POPUP HTML CONTENT END -->
 
 
 	<!--Page loader DOM Elements. Requared all pages-->
