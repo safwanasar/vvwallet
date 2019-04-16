@@ -47,11 +47,14 @@
 					</div>
 					<hr>
 					<ul class="main-menu">
-						<li class="">
+						<li>
 							<a href="#"><img src="img/content/icons/5.png" alt=""><strong class="special">Profile</strong> </a>
 						</li>
-						<li class="">
+						<li>
 							<a href="#"><img src="img/content/icons/11.png" alt=""><strong class="special">Setting</strong> </a>
+						</li>
+						<li>
+							<a href="#"><img src="img/content/icons/12.png" alt=""><strong class="special">Support</strong> </a>
 						</li>
 						<li class="bottom">
 							<a href="#"><img src="img/content/icons/13.png" alt=""><strong class="special">Logout</strong> </a>
@@ -80,10 +83,10 @@
 				<!-- TAB CONTROL START -->
 				<div class="tab-item fixed-bottom">
 					<div class="tab-menu fix-width only-icons">
-						<a class="menu-item active" href="javascript:void(0);" data-content="content1"><i class="fa fa-database"></i></a>
-						<a class="menu-item" href="javascript:void(0);" data-content="content2"><i class="fa fa-area-chart"></i></a>
-						<a class="menu-item" href="javascript:void(0);" data-content="content3"><i class="fa fa-exchange"></i></a>
-						<a class="menu-item" href="javascript:void(0);" data-content="content4"><i class="fa fa-history"></i></a>
+						<a class="menu-item active" href="javascript:void(0);" data-content="content1"><img src="img/content/wallet.png" class="tab-img" alt=""><span>Asset</span></a>
+						<a class="menu-item" href="javascript:void(0);" data-content="content2"><img src="img/content/market.png" class="tab-img" alt=""><span>Market</span></a>
+						<a class="menu-item" href="javascript:void(0);" data-content="content3"><img src="img/content/swap.png" class="tab-img" alt=""><span>Swap</span></a>
+						<a class="menu-item" href="javascript:void(0);" data-content="content4"><img src="img/content/history.png" class="tab-img" alt=""><span>Histroy</span></a>
 					</div>
 				</div>
 				<!-- TAB CONTROL END -->
@@ -128,80 +131,93 @@
 
 
 				<section class="container">
+					<div class="row m-0 p-0">
+						<div class="col-6 mb-3">
+							<p><strong>Your Asset</strong><p>
+						</div>
+						<div class="col-6 mb-3 txt-right txt-grey">
+							<small>13 Apr, 5:49pm</small>
+						</div>
+					</div>
 					<ul class="transaction-list list-unstyled">
-						<li>
-							<div class="d-flex align-items-center justify-content-between">
-														<div class="d-flex align-items-center">
-															<span class="member-img"><img class="img-xs" src="img/content/coin1.png" alt="coin image"></span>
-															<div class="ml-10">
-																<h4 class="coin-name">Bitcoins</h4>
-															</div>
-														</div>
-														<div>
-															<small class="d-block mb-0">0.94846 <span class="text-muted">BTC</span></small>
-															<small class="d-block txt-green">$2,748.94</small>
-														</div>
-													</div>
-						</li>
-						<li>
+						<li class="bitcoin">
 							<div class="d-flex align-items-center justify-content-between">
 								<div class="d-flex align-items-center">
-									<span class="member-img"><img class="img-xs" src="img/content/coin2.png" alt="coin image"></span>
+									<img class="img-xs" src="img/content/coin1.png" alt="coin image">
+									<div class="ml-10">
+										<h4 class="coin-name">Bitcoins</h4>
+										<small class="d-block">1 BTC = $4,023</small>
+									</div>
+								</div>
+								<div>
+									<small class="d-block mb-0">0.94846 <span class="text-muted">BTC</span></small>
+									<small class="d-block txt-green">$2,748.94</small>
+								</div>
+							</div>
+						</li>
+						<li class="eth">
+							<div class="d-flex align-items-center justify-content-between">
+								<div class="d-flex align-items-center">
+									<img class="img-xs" src="img/content/coin2.png" alt="coin image">
 									<div class="ml-10">
 										<h4 class="coin-name">Ether</h4>
+										<small class="d-block">1 ETH = $623</small>
 									</div>
 								</div>
 								<div>
-									<small class="d-block mb-0">0.94846 <span class="text-muted">BTC</span></small>
+									<small class="d-block mb-0">0.94846 <span class="text-muted">ETH</span></small>
 									<small class="d-block txt-green">$2,748.94</small>
 								</div>
 							</div>
 						</li>
-						<li>
+						<li class="pro">
 							<div class="d-flex align-items-center justify-content-between">
 								<div class="d-flex align-items-center">
-									<span class="member-img"><img class="img-xs" src="img/content/coin3.png" alt="coin image"></span>
-									<div class="ml-10">
-										<h4 class="coin-name">Stellar</h4>
-									</div>
-								</div>
-								<div>
-									<small class="d-block mb-0">0.94846 <span class="text-muted">BTC</span></small>
-									<small class="d-block txt-green">$2,748.94</small>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="d-flex align-items-center justify-content-between">
-								<div class="d-flex align-items-center">
-									<span class="member-img"><img class="img-xs" src="img/content/coin4.png" alt="coin image"></span>
+									<img class="img-xs" src="img/content/proximax.png" alt="coin image">
 									<div class="ml-10">
 										<h4 class="coin-name">Proxima</h4>
+										<small class="d-block">1 PXM = $623</small>
 									</div>
 								</div>
 								<div>
-									<small class="d-block mb-0">0.94846 <span class="text-muted">BTC</span></small>
+									<small class="d-block mb-0">0.94846 <span class="text-muted">PXM</span></small>
 									<small class="d-block txt-green">$2,748.94</small>
 								</div>
 							</div>
 						</li>
-						<li>
+						<li class="vvt">
 							<div class="d-flex align-items-center justify-content-between">
 								<div class="d-flex align-items-center">
-									<span class="member-img"><img class="img-xs" src="img/content/coin4.png" alt="coin image"></span>
+									<img class="img-xs" src="img/content/vvt.jpeg" alt="coin image">
 									<div class="ml-10">
-										<h4 class="coin-name">Proxima</h4>
+										<h4 class="coin-name">VVT</h4>
+										<small class="d-block">1 VVT = $100</small>
 									</div>
 								</div>
 								<div>
-									<small class="d-block mb-0">0.94846 <span class="text-muted">BTC</span></small>
+									<small class="d-block mb-0">0.94846 <span class="text-muted">VVT</span></small>
+									<small class="d-block txt-green">$2,748.94</small>
+								</div>
+							</div>
+						</li>
+						<li class="nem">
+							<div class="d-flex align-items-center justify-content-between">
+								<div class="d-flex align-items-center">
+									<img class="img-xs" src="img/content/nem.png" alt="coin image">
+									<div class="ml-10">
+										<h4 class="coin-name">NEM</h4>
+										<small class="d-block">1 NEM = $100</small>
+									</div>
+								</div>
+								<div>
+									<small class="d-block mb-0">0.94846 <span class="text-muted">NEM</span></small>
 									<small class="d-block txt-green">$2,748.94</small>
 								</div>
 							</div>
 						</li>
 					</ul>
+					<div class="form-divider"></div><div class="form-divider"></div>
 				</section>
-
 			</main>
 			<!-- Page content end -->
 		</div>

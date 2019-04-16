@@ -3421,3 +3421,48 @@ disabled {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 0;
 }
+.tab-img {
+	width:25px;
+	margin-bottom: 5px;
+}
+
+.transaction-list li.bitcoin,
+.transaction-list li.eth,
+.transaction-list li.pro,
+.transaction-list li.vvt,
+.transaction-list li.nem {
+	padding-left: 0;
+}
+
+ .transaction-list li.bitcoin .justify-content-between {
+	border-left: 3px solid #f8e71c;
+	padding-left: 10px;
+}
+
+.transaction-list li.eth .justify-content-between {
+ border-left: 3px solid #1a5afa;
+ padding-left: 10px;
+}
+
+.transaction-list li.pro .justify-content-between {
+ border-left: 3px solid #13b9d4;
+ padding-left: 10px;
+}
+
+.transaction-list li.vvt .justify-content-between {
+ border-left: 3px solid #fca18e;
+ padding-left: 10px;
+}
+
+.transaction-list li.nem .justify-content-between {
+ border-left: 3px solid #42d6c4;
+ padding-left: 10px;
+}
+
+.normal {
+	font-size: inherit !important;
+}
+
+.fx-150 {
+	width: 50px;
+}
